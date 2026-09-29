@@ -1,0 +1,8 @@
+AC01 | PASS | expected=OFF | actual=OFF
+AC02 | PASS | expected=OFF | actual=OFF
+AC03 | PASS | expected=ON | actual=ON
+AC04 | PASS | expected=OFF | actual=OFF
+AC05 | PASS | expected=OFF | actual=OFF
+B01 | PASS | expected=ON | actual=ON
+B02 | PASS | expected=ON | actual=ON
+Summary | 7/7 scenarios passed

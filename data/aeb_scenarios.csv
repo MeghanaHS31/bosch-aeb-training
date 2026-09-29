@@ -1,0 +1,8 @@
+id,scenario,vehicle_speed_kmh,obstacle_detected,obstacle_distance_m,expected_command
+AC01,moving without obstacle,50,false,,OFF
+AC02,obstacle outside threshold,50,true,10.1,OFF
+AC03,obstacle within threshold,50,true,9.9,ON
+AC04,stationary vehicle,0,true,1,OFF
+AC05,obstacle disappears,50,false,,OFF
+B01,distance exactly at threshold,1,true,10,ON
+B02,obstacle immediately in front,50,true,0,ON
